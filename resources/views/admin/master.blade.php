@@ -13,6 +13,7 @@
 
     <!-- jvectormap -->
     <link href="{{asset('assets/admin/plugins/jvectormap/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet">
+    <script src="{{asset('/')}}assets/admin/js/jquery.min.js"></script>
     <link href="{{asset('/')}}assets/admin/plugins/fullcalendar/vanillaCalendar.css" rel="stylesheet" type="text/css"  />
 
     <link href="{{asset('/')}}assets/admin/plugins/morris/morris.css" rel="stylesheet">
@@ -246,7 +247,7 @@
 
 
 <!-- jQuery  -->
-<script src="{{asset('/')}}assets/admin/js/jquery.min.js"></script>
+
 <script src="{{asset('/')}}assets/admin/js/popper.min.js"></script>
 <script src="{{asset('/')}}assets/admin/js/bootstrap.min.js"></script>
 <script src="{{asset('/')}}assets/admin/js/modernizr.min.js"></script>
