@@ -140,9 +140,9 @@
                             <input class="form-control" type="number" value="2" id="example-text-input">
                         </div>
                     </div>
-                    <div class="row " id="list_box_1" style="">
+                    <div class="row " id="list_box_1" style="align-items: center">
                         <div class="col-2">
-                            <p style="text-align: center;background: #eee;width:25px;font-size: 24px;">A</p>
+                            <p style="text-align: center;background: #eee;width:25px;font-size: 24px;height: 100px;line-height: 100px;">A</p>
                         </div>
                         <div class="col-9">
                             <div class="box">
@@ -150,8 +150,8 @@
                             </div>
                         </div>
                         <div class="col-1">
-                            <p class="ss_lette">
-                                <input type="radio" name="response_answer" value="1" style="text-align: center;background: #eee;width:25px;font-size: 24px;">
+                            <p class="ss_lette" style="height: 100px;line-height: 100px;background:#eee;text-align: center; ">
+                                <input type="radio" name="response_answer" value="1" style="text-align: center;font-size: 24px;">
                             </p>
                         </div>
                     </div>
