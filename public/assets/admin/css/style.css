@@ -34,8 +34,8 @@ File: Main Css File
 27. Calendar
 28. Widgets
 29. Maps
-30. Account pages 
-31. Responsive 
+30. Account pages
+31. Responsive
 */
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,500,600");
 /* ==============
@@ -3690,3 +3690,18 @@ File: Responsive
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/*custom css by aftab*/
+.modal{
+    top:100px !important;
+}
+.q-btn-bg{
+    padding: 10px 0px;
+    background: #29b348;
+    margin-right: 20px;
+    border: 1px solid #afafaf;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    width:50px;
+}

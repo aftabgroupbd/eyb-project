@@ -6,7 +6,7 @@
                 <div class="btn-group float-right">
                     <ol class="breadcrumb hide-phone p-0 m-0">
                         <li class="breadcrumb-item"><a href="#">EYB</a></li>
-                        <li class="breadcrumb-item active">Matching</li>
+                        <li class="breadcrumb-item active">Fill In The Blanks</li>
                     </ol>
                 </div>
                 <h4 class="page-title">Question Type</h4>
@@ -127,7 +127,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <textarea class="form-control" rows="5" style="margin-top: 0px; margin-bottom: 0px; height: 143px;"></textarea>
+                         <textarea class="form-control" rows="5" style="margin-top: 0px; margin-bottom: 0px; height: 143px;"></textarea>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -151,7 +151,7 @@
                 <div class="card-body">
                     <div class="form-group row">
                         <label for="example-text-input" class="col-sm-5 col-form-label">How many options</label>
-                        <div class="col-sm-7">
+                        <div class="col-sm-4">
                             <input class="form-control" type="number" value="4" id="box_qty" onclick="getImageBox(this)">
                         </div>
                     </div>
@@ -170,30 +170,14 @@
                                         <textarea class="form-control" rows="5" style="margin-top: 0px; margin-bottom: 0px; height: 143px;"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-1">
-                                    <p class="ss_lette" style="height: 100px;line-height: 100px;background:#eee;text-align: center; ">
-                                        <input type="radio" name="response_answer" value="<?php echo $i;?>" style="text-align: center;font-size: 24px;">
-                                    </p>
-                                </div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="row ">
-                                <div class="col-1">
-                                    <p class="ss_lette" style="height: 100px;line-height: 100px;background:#eee;text-align: center; ">
-                                        <input type="radio" name="response_answer" value="<?php echo $i;?>" style="text-align: center;font-size: 24px;">
-                                    </p>
-
-                                </div>
                                 <div class="col-9">
                                     <div class="box">
                                         <textarea class="form-control" rows="5" style="margin-top: 0px; margin-bottom: 0px; height: 143px;"></textarea>
                                     </div>
-                                </div>
-                                <div class="col-1">
-                                    <p class="ss_lette" style="background: #eeeeee;text-align: center;display: table-cell;vertical-align: middle;height: 138px;">
-                                        <input type="number" class="form-control" name="answer_<?php echo $i;?>" id="answer_<?php echo $i;?>" data="<?php echo $i;?>" onclick="getAnswer();">
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -212,30 +196,17 @@
                                         <textarea class="form-control" rows="5" style="margin-top: 0px; margin-bottom: 0px; height: 143px;"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-1">
-                                    <p class="ss_lette" style="height: 100px;line-height: 100px;background:#eee;text-align: center; ">
-                                        <input type="radio" name="response_answer" value="<?php echo $desired_i;?>" style="text-align: center;font-size: 24px;">
-                                    </p>
-                                </div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="row ">
-                                <div class="col-1">
-                                    <p class="ss_lette" style="height: 100px;line-height: 100px;background:#eee;text-align: center; ">
-                                        <input type="radio" name="response_answer" value="<?php echo $desired_i;?>" style="text-align: center;font-size: 24px;">
-                                    </p>
-
-                                </div>
                                 <div class="col-9">
                                     <div class="box">
                                         <textarea class="form-control" rows="5" style="margin-top: 0px; margin-bottom: 0px; height: 143px;"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-1">
-                                    <p class="ss_lette" style="background: #eeeeee;text-align: center;display: table-cell;vertical-align: middle;height: 138px;">
-                                        <input type="number" class="form-control" name="answer_<?php echo $desired_i;?>" id="answer_<?php echo $desired_i;?>" data="<?php echo $desired_i;?>" onclick="getAnswer();">
-                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -245,7 +216,7 @@
             </div>
         </div>
     </div>
-    <input type="hidden" name="image_quantity" id="image_quantity" value="4">
+    <input type="hidden" name="image_quantity" id="image_quantity" value="2">
     <script>
         var qtye = $("#box_qty").val();
         document.getElementById("image_quantity").value = qtye;

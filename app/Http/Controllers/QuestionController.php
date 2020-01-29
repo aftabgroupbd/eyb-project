@@ -29,6 +29,10 @@ class QuestionController extends Controller
         {
             return view('admin.tutors.question-box.matching');
         }
+        if ($qus_type == 5)
+        {
+            return view('admin.tutors.question-box.fill-in-the-blanks');
+        }
         //return view('admin.manage-question',$data);
     }
 }
