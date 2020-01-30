@@ -33,6 +33,10 @@ class QuestionController extends Controller
         {
             return view('admin.tutors.question-box.fill-in-the-blanks');
         }
+        if ($qus_type == 6)
+        {
+            return view('admin.tutors.question-box.tutorial');
+        }
         //return view('admin.manage-question',$data);
     }
 }

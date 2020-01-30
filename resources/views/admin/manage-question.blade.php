@@ -49,6 +49,10 @@
                                 <th scope="row" style="background: #76e2cc;"><a style="color:#212529;" href="{{route('create_question',[5])}}">Fill In The Blanks</a></th>
                                 <td class="">1</td>
                             </tr>
+                            <tr >
+                                <th scope="row" style="background: #76e2cc;"><a style="color:#212529;" href="{{route('create_question',[6])}}">Tutorial</a></th>
+                                <td class="">1</td>
+                            </tr>
                             </tbody>
                         </table>
                     </div>
