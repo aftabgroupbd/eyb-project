@@ -61,6 +61,12 @@
                             <span>Manage Question<span class="badge badge-pill badge-primary float-right">7</span></span>
                         </a>
                     </li>
+                    <li>
+                        <a href="{{route('manage_module')}}" class="waves-effect">
+                            <i class="mdi mdi-airplay"></i>
+                            <span>Manage Module<span class="badge badge-pill badge-primary float-right">7</span></span>
+                        </a>
+                    </li>
 
                     <li class="has_sub">
                         <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-layers"></i> <span> Advanced UI </span> <span class="float-right"><i class="mdi mdi-chevron-right"></i></span></a>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee4fff1-c5a3-4e72-8c0a-6b19ebaf101b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tutors/question-box/tutorial.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/tutors/module/all-module.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/manage-question.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/manage-question.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +166,8 @@
       <workItem from="1579407500489" duration="3234000" />
       <workItem from="1579601909709" duration="2909000" />
       <workItem from="1580279609653" duration="7199000" />
-      <workItem from="1580375286747" duration="1316000" />
+      <workItem from="1580375286747" duration="2127000" />
+      <workItem from="1580636427858" duration="1311000" />
     </task>
     <servers />
   </component>

@@ -39,4 +39,8 @@ class QuestionController extends Controller
         }
         //return view('admin.manage-question',$data);
     }
+    public function ManageModule()
+    {
+        return view('admin.tutors.module.all-module');
+    }
 }

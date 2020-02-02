@@ -19,4 +19,5 @@ Route::get('/dashboard', 'AdminController@index');
 //Route::get('welcome', 'QuestionController@ManageQuestion');
 Route::get('/manage-question', 'QuestionController@ManageQuestion')->name('manage_question');
 Route::get('/create-question/{id}', 'QuestionController@CreateQuestion')->name('create_question');
+Route::get('/manage-module', 'QuestionController@ManageModule')->name('manage_module');
 //Route::get('/create-question', 'QuestionController@CreateQuestion')->name('create_question');
