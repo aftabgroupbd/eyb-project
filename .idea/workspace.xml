@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee4fff1-c5a3-4e72-8c0a-6b19ebaf101b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tutors/module/all-module.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/students/manage-student.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/tutors/manage-teachers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tutors/module/all-module.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tutors/module/all-module.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,6 +170,7 @@
       <workItem from="1580279609653" duration="7199000" />
       <workItem from="1580375286747" duration="2127000" />
       <workItem from="1580636427858" duration="1311000" />
+      <workItem from="1581327011283" duration="1524000" />
     </task>
     <servers />
   </component>

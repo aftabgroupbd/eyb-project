@@ -18,16 +18,16 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <div class="form-group" style="float: left;margin-right: 10px;">
+                    <div class="form-group font-12" style="float: left;margin-right: 10px;">
                         <label for="exampleInputName2">Module name</label>
                         <div class="select">
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control width-130 font-12">
                         </div>
                     </div>
-                    <div class="form-group" style="float: left;margin-right: 10px;">
+                    <div class="form-group font-12" style="float: left;margin-right: 10px;">
                         <label for="exampleInputName2">Level</label>
                         <div class="select">
-                            <select class="form-control select-hidden" name="studentgrade">
+                            <select class="form-control select-hidden width-130" name="studentgrade" style="font-size: 12px;">
                                 <option value="">Select Level</option>
                                 <option value="1">
                                     1
@@ -41,10 +41,10 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group" style="float: left;margin-right: 10px;">
+                    <div class="form-group font-12" style="float: left;margin-right: 10px;">
                         <label for="exampleInputName2">Subject</label>
                         <div class="select">
-                            <select class="form-control select-hidden" name="studentgrade">
+                            <select class="form-control select-hidden width-130" name="studentgrade" style="font-size: 12px;">
                                 <option value="">Select Subject</option>
                                 <option value="1">
                                     1
@@ -58,10 +58,10 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group" style="float: left;margin-right: 10px;">
+                    <div class="form-group font-12" style="float: left;margin-right: 10px;">
                         <label for="exampleInputName2">Chapter</label>
                         <div class="select">
-                            <select class="form-control select-hidden" name="studentgrade">
+                            <select class="form-control select-hidden width-130" name="studentgrade" style="font-size: 12px;">
                                 <option value="">Select Chapter</option>
                                 <option value="1">
                                     1
@@ -75,11 +75,11 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group" style="float: left;margin-right: 10px;">
+                    <div class="form-group " style="float: left;margin-right: 10px;">
                         <label for="exampleInputName2">&nbsp;</label>
                         <div class="select">
                             <button type="button" class="btn btn-danger btn-animation" data-animation="slideInDown" data-toggle="modal" data-target="#exampleModalLong-1">
-                                Question Mark
+                                Mark
                             </button>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                         <label for="exampleInputName2">&nbsp;</label>
                         <div class="select">
                             <button type="button" class="btn btn-success btn-animation">
-                                Question Save
+                                Save
                             </button>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <label for="exampleInputName2">&nbsp;</label>
                         <div class="select">
                             <button type="button" class="btn btn-warning btn-animation">
-                                Question Preview
+                                 Preview
                             </button>
                         </div>
                     </div>

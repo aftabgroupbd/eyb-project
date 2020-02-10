@@ -20,4 +20,6 @@ Route::get('/dashboard', 'AdminController@index');
 Route::get('/manage-question', 'QuestionController@ManageQuestion')->name('manage_question');
 Route::get('/create-question/{id}', 'QuestionController@CreateQuestion')->name('create_question');
 Route::get('/manage-module', 'QuestionController@ManageModule')->name('manage_module');
+Route::get('/manage-students', 'StudentController@manage_student')->name('manage_student');
+Route::get('/manage-teachers', 'TeachersController@manage_teachers')->name('manage_teachers');
 //Route::get('/create-question', 'QuestionController@CreateQuestion')->name('create_question');
